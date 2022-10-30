@@ -8,14 +8,5 @@ print(spisok)
 summa = 0
 
 for i in range(len(spisok)):
-    if i % 2 == 1:
+     if i % 2 == 1:
         summa += spisok[i]
-
-print(summa)
-
-
-
-
-    
-
-
