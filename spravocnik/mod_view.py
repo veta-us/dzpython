@@ -25,9 +25,9 @@ def search_number() -> str:
 def new_user() -> str:
     first_name = input("ВВедите имя: ")
     second_name = input("ВВедите фамилию: ") 
-    phone_nmber = input("ВВедите номер: ") 
+    phone_number = input("ВВедите номер: ") 
     comment = input("ВВедите комментарий: ") 
-    return f'{first_name},{second_name},{phone_nmber},{comment}'
+    return f'{first_name},{second_name},{phone_number},{comment}'
 
 def get_file_name() -> str:
     return input("Введите название файла, чтобы сохранить:  ")
